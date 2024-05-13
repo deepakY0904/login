@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+}
+form{
+    /* background-color: aquamarine; */
+    width: 30%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(194, 193, 193);
+    margin-top: 20px;
+}
+img,input,a,button{
+    display: block;
+}
+img{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+input{
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid rgb(195, 187, 187);
+}
+button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 128, 255, 0.603);
+    margin-top: 10px;
+    border: none;
+}
+hr{
+    margin-top: 40px;
+}
+a{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+h4{
+    position: absolute;
+    top: -100%;
+    left: 44%;
+    background-color: white;
+    padding: 0px 10px;
+}
+#or-cont{
+    position: relative;
+    height: 30px;
+}
